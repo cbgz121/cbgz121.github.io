@@ -1,0 +1,645 @@
+[1694956371.588][INFO]: Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 45759
+[1694956371.588][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1694956372.590][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--headless", "window-size=1920,20000", "--no-sandbox", "--disable-dev-shm-usage", "--log-level=3", "--silent", "--disable-logging" ],
+            "excludeSwitches": [ "enable-logging" ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--headless", "window-size=1920,20000", "--no-sandbox", "--disable-dev-shm-usage", "--log-level=3", "--silent", "--disable-logging" ],
+         "excludeSwitches": [ "enable-logging" ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1694956372.591][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1694956372.591][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1694956372.592][INFO]: Launching chrome: /usr/bin/google-chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-logging --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --headless --log-level=3 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --remote-debugging-port=0 --silent --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.QPoicr --window-size=1920,20000 data:,
+[1694956372.701][INFO]: resolved localhost to ["127.0.0.1","127.0.0.1"]
+[1694956372.754][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "114.0.5735.90",
+      "chrome": {
+         "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
+         "userDataDir": "/tmp/.com.google.Chrome.QPoicr"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:38381"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "1a64f52095f9391d3291762ab05e2b29"
+}
+[1694956372.756][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND Navigate {
+   "url": "https://abyssinian-spruce-08e.notion.site/Personal-Home-93e3209561c14a8c9e03ae02d4d222fe?pvs=4"
+}
+[1694956372.756][INFO]: Waiting for pending navigations...
+[1694956372.759][INFO]: Done waiting for pending navigations. Status: ok
+[1694956373.878][INFO]: Waiting for pending navigations...
+[1694956376.038][INFO]: Done waiting for pending navigations. Status: ok
+[1694956376.038][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE Navigate
+[1694956376.039][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1694956376.039][INFO]: Waiting for pending navigations...
+[1694956376.040][INFO]: Done waiting for pending navigations. Status: ok
+[1694956376.054][INFO]: Waiting for pending navigations...
+[1694956376.245][INFO]: Done waiting for pending navigations. Status: ok
+[1694956376.245][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956376.248][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956376.248][INFO]: Waiting for pending navigations...
+[1694956376.262][INFO]: Done waiting for pending navigations. Status: ok
+[1694956376.272][INFO]: Waiting for pending navigations...
+[1694956376.275][INFO]: Done waiting for pending navigations. Status: ok
+[1694956376.275][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."
+[1694956376.780][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1694956376.780][INFO]: Waiting for pending navigations...
+[1694956376.787][INFO]: Done waiting for pending navigations. Status: ok
+[1694956376.798][INFO]: Waiting for pending navigations...
+[1694956376.799][INFO]: Done waiting for pending navigations. Status: ok
+[1694956376.799][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956376.800][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956376.801][INFO]: Waiting for pending navigations...
+[1694956376.802][INFO]: Done waiting for pending navigations. Status: ok
+[1694956376.803][INFO]: Waiting for pending navigations...
+[1694956376.804][INFO]: Done waiting for pending navigations. Status: ok
+[1694956376.804][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."
+[1694956377.308][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1694956377.308][INFO]: Waiting for pending navigations...
+[1694956377.322][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.347][INFO]: Waiting for pending navigations...
+[1694956377.348][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.348][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_7"
+} ]
+[1694956377.350][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1694956377.350][INFO]: Waiting for pending navigations...
+[1694956377.351][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.367][INFO]: Waiting for pending navigations...
+[1694956377.384][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.384][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956377.386][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1694956377.387][INFO]: Waiting for pending navigations...
+[1694956377.393][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.574][INFO]: Waiting for pending navigations...
+[1694956377.579][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.579][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956377.581][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1694956377.581][INFO]: Waiting for pending navigations...
+[1694956377.583][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.601][INFO]: Waiting for pending navigations...
+[1694956377.602][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.602][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_9"
+} ]
+[1694956377.603][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindChildElements {
+   "id": "2E3515DA02E74C9902063B5ECE6D3765_element_9",
+   "using": "css selector",
+   "value": "div"
+}
+[1694956377.603][INFO]: Waiting for pending navigations...
+[1694956377.604][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.649][INFO]: Waiting for pending navigations...
+[1694956377.676][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.676][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_10"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_11"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_12"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_13"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_14"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_15"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_16"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_18"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_19"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_20"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_21"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_22"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_23"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_24"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_25"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_26"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_27"
+}, "..." ]
+[1694956377.679][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956377.679][INFO]: Waiting for pending navigations...
+[1694956377.681][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.686][INFO]: Waiting for pending navigations...
+[1694956377.687][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.687][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."
+[1694956377.691][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956377.691][INFO]: Waiting for pending navigations...
+[1694956377.692][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.694][INFO]: Waiting for pending navigations...
+[1694956377.695][INFO]: Done waiting for pending navigations. Status: ok
+[1694956377.695][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."
+[1694956378.200][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1694956378.200][INFO]: Waiting for pending navigations...
+[1694956378.213][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.219][INFO]: Waiting for pending navigations...
+[1694956378.220][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.220][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_7"
+} ]
+[1694956378.223][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1694956378.223][INFO]: Waiting for pending navigations...
+[1694956378.225][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.234][INFO]: Waiting for pending navigations...
+[1694956378.235][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.235][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956378.237][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1694956378.237][INFO]: Waiting for pending navigations...
+[1694956378.238][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.249][INFO]: Waiting for pending navigations...
+[1694956378.250][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.250][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956378.252][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1694956378.252][INFO]: Waiting for pending navigations...
+[1694956378.253][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.264][INFO]: Waiting for pending navigations...
+[1694956378.266][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.266][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_9"
+} ]
+[1694956378.267][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindChildElements {
+   "id": "2E3515DA02E74C9902063B5ECE6D3765_element_9",
+   "using": "css selector",
+   "value": "div"
+}
+[1694956378.267][INFO]: Waiting for pending navigations...
+[1694956378.268][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.282][INFO]: Waiting for pending navigations...
+[1694956378.283][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.283][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_10"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_11"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_12"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_13"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_14"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_15"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_16"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_18"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_19"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_20"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_21"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_22"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_23"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_24"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_25"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_26"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_27"
+}, "..." ]
+[1694956378.285][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956378.285][INFO]: Waiting for pending navigations...
+[1694956378.286][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.290][INFO]: Waiting for pending navigations...
+[1694956378.292][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.292][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."
+[1694956378.295][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956378.295][INFO]: Waiting for pending navigations...
+[1694956378.297][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.300][INFO]: Waiting for pending navigations...
+[1694956378.301][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.301][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."
+[1694956378.804][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1694956378.804][INFO]: Waiting for pending navigations...
+[1694956378.840][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.945][INFO]: Waiting for pending navigations...
+[1694956378.946][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.946][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_7"
+} ]
+[1694956378.948][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1694956378.948][INFO]: Waiting for pending navigations...
+[1694956378.949][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.958][INFO]: Waiting for pending navigations...
+[1694956378.959][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.959][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956378.961][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1694956378.961][INFO]: Waiting for pending navigations...
+[1694956378.962][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.969][INFO]: Waiting for pending navigations...
+[1694956378.970][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.970][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956378.972][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1694956378.972][INFO]: Waiting for pending navigations...
+[1694956378.973][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.979][INFO]: Waiting for pending navigations...
+[1694956378.980][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.980][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_9"
+} ]
+[1694956378.982][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindChildElements {
+   "id": "2E3515DA02E74C9902063B5ECE6D3765_element_9",
+   "using": "css selector",
+   "value": "div"
+}
+[1694956378.982][INFO]: Waiting for pending navigations...
+[1694956378.983][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.994][INFO]: Waiting for pending navigations...
+[1694956378.995][INFO]: Done waiting for pending navigations. Status: ok
+[1694956378.995][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_10"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_11"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_12"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_13"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_14"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_15"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_16"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_18"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_19"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_20"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_21"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_22"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_23"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_24"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_25"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_26"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_27"
+}, "..." ]
+[1694956378.997][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956378.997][INFO]: Waiting for pending navigations...
+[1694956378.998][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.001][INFO]: Waiting for pending navigations...
+[1694956379.002][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.002][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."
+[1694956379.005][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956379.005][INFO]: Waiting for pending navigations...
+[1694956379.006][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.009][INFO]: Waiting for pending navigations...
+[1694956379.010][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.010][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."
+[1694956379.514][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-presence-container"
+}
+[1694956379.514][INFO]: Waiting for pending navigations...
+[1694956379.515][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.522][INFO]: Waiting for pending navigations...
+[1694956379.523][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.523][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_7"
+} ]
+[1694956379.524][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-unknown-block"
+}
+[1694956379.524][INFO]: Waiting for pending navigations...
+[1694956379.525][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.531][INFO]: Waiting for pending navigations...
+[1694956379.532][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.532][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.533][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".loading-spinner"
+}
+[1694956379.533][INFO]: Waiting for pending navigations...
+[1694956379.534][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.542][INFO]: Waiting for pending navigations...
+[1694956379.543][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.543][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.544][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-scroller"
+}
+[1694956379.544][INFO]: Waiting for pending navigations...
+[1694956379.545][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.552][INFO]: Waiting for pending navigations...
+[1694956379.553][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.553][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_9"
+} ]
+[1694956379.555][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindChildElements {
+   "id": "2E3515DA02E74C9902063B5ECE6D3765_element_9",
+   "using": "css selector",
+   "value": "div"
+}
+[1694956379.555][INFO]: Waiting for pending navigations...
+[1694956379.556][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.567][INFO]: Waiting for pending navigations...
+[1694956379.568][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.568][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindChildElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_10"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_11"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_6"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_12"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_13"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_14"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_15"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_16"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_17"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_18"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_19"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_20"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_21"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_22"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_23"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_24"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_25"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_26"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "2E3515DA02E74C9902063B5ECE6D3765_element_27"
+}, "..." ]
+[1694956379.569][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956379.570][INFO]: Waiting for pending navigations...
+[1694956379.571][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.573][INFO]: Waiting for pending navigations...
+[1694956379.574][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.574][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."
+[1694956379.576][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1694956379.576][INFO]: Waiting for pending navigations...
+[1694956379.577][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.592][INFO]: Waiting for pending navigations...
+[1694956379.593][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.593][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.595][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-selectable.notion-header-block"
+}
+[1694956379.595][INFO]: Waiting for pending navigations...
+[1694956379.597][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.611][INFO]: Waiting for pending navigations...
+[1694956379.617][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.617][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.618][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-selectable.notion-sub_header-block"
+}
+[1694956379.619][INFO]: Waiting for pending navigations...
+[1694956379.620][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.643][INFO]: Waiting for pending navigations...
+[1694956379.645][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.645][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.647][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-selectable.notion-sub_sub_header-block"
+}
+[1694956379.647][INFO]: Waiting for pending navigations...
+[1694956379.648][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.665][INFO]: Waiting for pending navigations...
+[1694956379.667][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.667][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.668][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-toggle-block"
+}
+[1694956379.668][INFO]: Waiting for pending navigations...
+[1694956379.678][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.685][INFO]: Waiting for pending navigations...
+[1694956379.686][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.686][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.689][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-selectable.notion-header-block"
+}
+[1694956379.689][INFO]: Waiting for pending navigations...
+[1694956379.690][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.697][INFO]: Waiting for pending navigations...
+[1694956379.698][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.698][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.699][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-selectable.notion-sub_header-block"
+}
+[1694956379.699][INFO]: Waiting for pending navigations...
+[1694956379.700][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.707][INFO]: Waiting for pending navigations...
+[1694956379.709][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.709][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.710][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND FindElements {
+   "using": "css selector",
+   "value": ".notion-selectable.notion-sub_sub_header-block"
+}
+[1694956379.710][INFO]: Waiting for pending navigations...
+[1694956379.711][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.718][INFO]: Waiting for pending navigations...
+[1694956379.719][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.719][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE FindElements [  ]
+[1694956379.720][INFO]: [1a64f52095f9391d3291762ab05e2b29] COMMAND GetSource {
+}
+[1694956379.720][INFO]: Waiting for pending navigations...
+[1694956379.721][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.724][INFO]: Waiting for pending navigations...
+[1694956379.725][INFO]: Done waiting for pending navigations. Status: ok
+[1694956379.725][INFO]: [1a64f52095f9391d3291762ab05e2b29] RESPONSE GetSource "\u003Chtml class=\"notion-html\" lang=\"en\">\u003Chead lang=\"en\">\u003Cmeta charset=\"utf-8\">\u003Cmeta name=\"viewport\" content=\"width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no,vie..."

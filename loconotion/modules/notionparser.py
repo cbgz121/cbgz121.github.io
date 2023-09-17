@@ -50,7 +50,7 @@ class Parser:
         self.index_url = index_url
 
         # set the output folder based on the site name
-        self.dist_folder = Path(config.get("output", Path("dist") / site_name))
+        self.dist_folder = Path(config.get("output", Path("docs")))
         log.info(f"Setting output path to '{self.dist_folder}'")
 
         # check if the argument to clean the dist folder was passed
